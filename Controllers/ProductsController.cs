@@ -3,7 +3,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [Route("/api/[controller]")]                  // атрибут [Route] для определения маршрута непосредственно в контроллере - принцип маршрутизацию на основе атрибутов
+    [Route("/api/[controller]")]                  // атрибут [Route] для определения маршрута непосредственно в контроллере - принцип маршрутизациюю на основе атрибутов
     public class ProductsController : Controller
     {
         private static List<Product> products = new List<Product>(new[] {
